@@ -22,7 +22,7 @@ gulp.task('terser', function () {
 })
 
 gulp.task('watch',function () {
-    gulp.watch('./src/**/*.scss', gulp.series('sass')); //watch less
-    gulp.watch('./src/**/*.js', gulp.series('terser')); //watch js
+    gulp.watch('./src/**/*.scss', gulp.series('sass'));
+    gulp.watch('./src/**/*.js', gulp.series('terser'));
 });
 gulp.task('default', gulp.parallel('sass', 'terser'));
