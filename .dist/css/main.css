@@ -1,0 +1,1 @@
+.visible{height:200px;width:300px;margin:0 auto;overflow:hidden;position:relative}.slider{position:absolute;left:0;top:0;list-style:none}.slider,.slider__item{height:200px;margin:0;padding:0}.slider__item{float:left;width:300px;-webkit-box-sizing:border-box;box-sizing:border-box;background:#eee;border:2px solid #000;border-radius:5px}

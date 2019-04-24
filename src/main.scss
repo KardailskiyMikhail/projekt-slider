@@ -1,0 +1,27 @@
+.visible {
+  height: 200px;
+  width:300px;
+  margin: 0 auto;
+  overflow: hidden;
+  position:relative;
+}
+.slider {
+  position:absolute;
+  left:0;
+  top:0;
+  list-style: none;
+  height:200px;
+  margin: 0;
+  padding: 0;
+  &__item {
+    float:left;
+    width:300px;
+    height:200px;
+    box-sizing: border-box;
+    background: #eee;
+    border:2px solid black;
+    border-radius: 5px;
+    margin: 0;
+    padding: 0;
+  }
+}
